@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who is me?</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Baloo+2&family=Great+Vibes&family=IBM+Plex+Sans+KR:wght@100&family=Lobster+Two:ital,wght@1,700&family=Sacramento&family=Satisfy&family=Spartan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <div id="left-content">
+            <h1 id="head-left">About me</h1>
+            <div class="sub-header-left">
+                <p class="slogan-left">Freedom is, not having to explain yourself!</p>
+            </div>
+            <div class="left-content">
+                <p>Nguyen Lam Thuy Phuong</p>
+                <p>20 years old</p>
+                <p>3nd year student in Software Engineering in FPT University</p>
+                <p>Have a special love for computers</p>
+            </div>
+                <p class="content-name">thuyphuongdacode</p>
+        </div>
+        <div id="right-content">
+            <div class="container">
+                <div class="content-image">
+                    <img src="assets/img/pic11.jpg" alt="me" class="my-pic" id="img-1" onclick="changeImage()">
+                </div>
+                <div class="content-text">
+                    <h2 class="heading-content">Personality</h2>
+                    <div class="body-right-content">
+                        <h3 class="body-content">Introvert</h3>
+                        <h3 class="body-content">&</h3>
+                        <h3 class="body-content">simple person</h3>
+                    </div>
+                    <i class="footer-arrow ti-angle-right"></i>
+                </div>
+            </div>
+            
+            <div class="container-2">
+                <div class="content-image-2">
+                    <img src="assets/img/pic13.jpg" alt="me" class="my-pic" id="img-2" onclick="changeImage()">
+                </div>
+                <div class="content-text-2">
+                    <h2 class="heading-content">Personality</h2>
+                    <div class="body-right-content">
+                        <h3 class="body-content">May be shy</h3>
+                        <h3 class="body-content">&</h3>
+                        <h3 class="body-content">self-doubt</h3>
+                    </div>
+                    <i class="footer-arrow-2 ti-angle-right"></i>
+                </div>
+            </div>
+        </div>
+        <div id="nextline-btn"><a href="index2.html"><i class="ti-angle-right"></i></a></div>
+    </div>
+
+    
+
+    <script>
+        var index = 1;
+        changeImage = function(){
+            var imgs = ["assets/img/pic11.jpg", "assets/img/pic1.jpg", "assets/img/pic2.jpg", "assets/img/pic4.jpg"];
+            var imgsNth = ["assets/img/pic13.jpg", "assets/img/pic3.jpg", "assets/img/pic5.jpg", "assets/img/pic6.jpg"];
+            document.getElementById('img-1').src = imgs[index];
+            document.getElementById('img-2').src = imgsNth[index];
+            index++;
+            if (index == 4) {
+                index = 0;
+            }
+        }
+        setInterval(changeImage, 2000);
+    </script>
+</body>
+</html>
