@@ -140,3 +140,143 @@
         box-shadow: 2px 2px 5px 0px rgba(107, 105, 105, 0.692);
     }
 }
+
+@media screen and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+    #main {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(120,120,120,0.1)), url(https://i.pinimg.com/originals/d1/37/c4/d137c4178bd0248d19b99a53934f37ca.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+        width: 100%;
+        height: 100%;
+        filter: grayscale();
+        text-align: center;
+    }
+
+     .container {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.356);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+        opacity: 0.75;
+        background-image: url(https://freepngimg.com/download/graphic/53280-2-abstract-art-hd-free-png-hq.png);
+    }
+
+    #top-content {
+        width: 100%;
+        height: 50%;
+    }
+
+    .img-border {
+        width: 75%;
+        border-radius: 50%;
+        border: 8px solid rgba(0, 0, 0, 0.705);
+        margin-top: 30px;
+        opacity: 0.9;
+    }
+
+    #body-content {
+        width: 100%;
+        height: 50%;
+    }
+
+    .body-header {
+        width: 100%;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 20px;
+        margin-top: 10px;
+    }
+
+    .body-text {
+        margin-top: 8%;
+    }
+
+    .body-and {
+        margin-bottom: 2%;
+        font-size: 300%;
+        font-family: 'League Script', cursive;
+        font-weight: 900;
+        padding: 2% 0;
+    }
+
+    .body-p {
+        margin-bottom: 2%;
+        font-size: 150%;
+        font-family: 'League Script', cursive;
+        font-weight: 600;
+        display: inline-block;
+        border:1px solid rgba(0, 0, 0, 0.2);
+        padding: 2% 16%;
+        background-color: #000;
+        opacity: 0.8;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .body-p:hover {
+        padding: 2% 16%;
+        font-size: 200%;
+    }
+
+    .body-footer {
+        font-family: 'Allison', cursive;
+        font-size: 180%;
+        margin-right: 2%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    #nextline-btn a{
+        position: absolute;
+        z-index: 1;
+        bottom: 5%;
+        right: 5%;
+        font-size: 2.5rem;
+        padding: 1%;
+        color: rgba(209, 209, 209, 0.555);
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: -8px 8px 5px 0px rgba(107, 105, 105, 0.692);
+    }
+
+    #nextline-btn a:hover {
+        box-shadow: -4px 4px 5px 0px rgba(107, 105, 105, 0.692);
+    }
+
+    #nextline-btn a:active {
+        box-shadow: -2px 2px 5px 0px rgba(107, 105, 105, 0.692);
+    }
+
+    #nextline-btn2 a{
+        position: absolute;
+        z-index: 1;
+        bottom: 5%;
+        left: 5%;
+        font-size: 2.5rem;
+        padding: 1%;
+        color: rgba(209, 209, 209, 0.466);
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 8px 8px 5px 0px rgba(107, 105, 105, 0.692);
+    }
+
+    #nextline-btn2 a:hover {
+        box-shadow: 4px 4px 5px 0px rgba(107, 105, 105, 0.692);
+    }
+
+    #nextline-btn2 a:active {
+        box-shadow: 2px 2px 5px 0px rgba(107, 105, 105, 0.692);
+    } */
+}
