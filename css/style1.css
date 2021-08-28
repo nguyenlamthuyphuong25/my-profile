@@ -103,8 +103,9 @@
         z-index: 1;
         bottom: 45%;
         right: 10%;
-        font-size: 4rem;
-        color: rgba(209, 209, 209, 0.842);
+        font-size: 3rem;
+        padding: 1%;
+        color: rgba(209, 209, 209, 0.555);
         cursor: pointer;
         text-decoration: none;
         box-shadow: -8px 8px 5px 0px rgba(107, 105, 105, 0.692);
@@ -123,8 +124,9 @@
         z-index: 1;
         bottom: 45%;
         left: 10%;
-        font-size: 4rem;
-        color: rgba(209, 209, 209, 0.842);
+        font-size: 3rem;
+        padding: 1%;
+        color: rgba(209, 209, 209, 0.733);
         cursor: pointer;
         text-decoration: none;
         box-shadow: 8px 8px 5px 0px rgba(107, 105, 105, 0.692);
