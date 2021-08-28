@@ -163,6 +163,176 @@
     #nextline-btn a:active {
         box-shadow: -2px 2px 5px 0px rgba(107, 105, 105, 0.692);
     }
+}
+/*  */
+
+@media screen and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+    #main {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(120,120,120,0.1)), url(https://wallpaperaccess.com/full/21591.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        filter: grayscale();
+        position: relative;
+    }
+
+    #left-content {
+        width: 100%;
+        height: 50%;
+        opacity: 0.8;
+    }
+
+    
+    #head-left {
+        font-family: 'Spartan', sans-serif;
+        text-align: center;
+        font-size: 150%;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-top: 8%;
+        color: white;
+        width: 100%;
+    }
+    
+    .sub-header-left {
+        font-family: 'Great Vibes', cursive;
+        text-align: center;
+        color: white;
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .content-name {
+        font-family: 'Allison', cursive;
+        font-size: 120%;
+        color: white;
+        float: right;
+        margin-right: 2%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .left-content {
+        font-family: 'Satisfy', cursive;
+        font-size: 90%;
+        background-color: rgba(255, 255, 255, 0.514);
+        color: rgb(255, 251, 251);
+        padding: 3% 0;
+        width: 100%;
+        margin-top: 4%;
+        cursor: crosshair;
+        text-align: center;
+    }
 
 
+    #right-content {
+        clear: both;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.151);
+        box-shadow: -60px 0px 100px -50px rgb(148, 146, 146);
+        opacity: 0.8;
+        padding: 3% 0;
+        text-align: center;
+        height: 85vh;
+    }
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
+
+    .container-2 {
+        width: 100%;
+        height: auto;
+        margin-top: 4%;
+        clear: both;
+    }
+
+    .content-image {
+        width: 50%;
+        float: left;
+    }
+
+    .my-pic {
+        width: 90%;
+        border-radius: 50%;
+        margin-bottom: 40px;
+    }
+
+    .content-text {
+        float: right;
+        width: 50%;
+        margin-top: 5%;
+        color: rgb(255, 255, 255);
+    }
+ 
+    .body-right-content {
+        margin-top: 10%;
+    }
+
+    .heading-content {
+        font-size: 160%;
+        text-align: center;
+    }
+
+    .body-content {
+        font-family: 'Spartan', sans-serif;
+        font-size: 70%;
+        margin-bottom: 4%;
+        text-align: center;
+    }
+
+    .footer-arrow {
+        color: rgba(255, 255, 255, 0);
+        margin-left: 50%;
+    }
+
+    .content-image-2 {
+        width: 50%;
+        float: right;
+    }
+
+    .content-text-2 {
+        width: 50%;
+        color: rgb(255, 255, 255);
+        float: left;
+        margin-top: 5%;
+    }
+  
+    .footer-arrow-2 {
+        color: rgba(0, 0, 0, 0);
+    }
+
+    #nextline-btn a{
+        position: absolute;
+        z-index: 1;
+        bottom: 24px;
+        right: 5%;
+        font-size: 3rem;
+        padding: 1%;
+        color: rgba(209, 209, 209, 0.712);
+        cursor: pointer;
+        text-decoration: none;
+        clear: both;
+        box-shadow: -12px 8px 5px 0px rgba(107, 105, 105, 0.692);
+    }
+
+    #nextline-btn a:hover {
+        box-shadow: -10px 8px 5px 0px rgba(107, 105, 105, 0.692);
+    }
+
+    #nextline-btn a:active {
+        box-shadow: -2px 2px 5px 0px rgba(107, 105, 105, 0.692);
+    } */
 }
