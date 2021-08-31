@@ -32,6 +32,7 @@
         align-items: center;
         text-align: center;
         min-width: 1200px;
+        position: relative;
     }
 
     .container {
