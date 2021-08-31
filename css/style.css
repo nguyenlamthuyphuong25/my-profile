@@ -186,27 +186,23 @@
         height: 100%;
         width: 100%;
     }
+    #main {
+        width: 100%;
+        height: 110%;
+        position: relative;
+    }
+
     video {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 110%;
         object-fit: cover;
     }
-    #main {
-        /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(120,120,120,0.1)), url(https://wallpaperaccess.com/full/21591.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center; */
-        width: 100%;
-        height: 100%;
-        position: relative;
-    }
 
-     #left-content {
+    #left-content {
         width: 100%;
-        height: auto;
         opacity: 0.8;
     }
 
@@ -258,23 +254,21 @@
         width: 100%;
         background-color: rgba(255, 255, 255, 0.151);
         box-shadow: -60px 0px 100px -50px rgb(148, 146, 146);
-        opacity: 0.85;
+        opacity: 0.8;
         padding: 3% 0;
         text-align: center;
-        height: auto;
     }
+
     .container{
         width: 100%;
-        height: 100%;
-        margin-top: 4%;
+        height: auto;
     }
 
     .container-2 {
         width: 100%;
         height: auto;
-        margin-top: 8%;
+        margin-top: 4%;
         clear: both;
-        height: 100%;
         display: inline-block;
     }
 
@@ -294,11 +288,11 @@
         margin-top: 5%;
         color: rgb(255, 255, 255);
     }
-
+ 
     .body-right-content {
         margin-top: 10%;
     }
- 
+
     .heading-content {
         font-size: 160%;
         text-align: center;
@@ -307,46 +301,43 @@
     .body-content {
         font-family: 'Spartan', sans-serif;
         font-size: 70%;
-        margin-bottom: 8%;
+        margin-bottom: 4%;
         text-align: center;
     }
 
     .footer-arrow {
         color: rgba(255, 255, 255, 0);
         margin-left: 50%;
-        
     }
 
     .content-image-2 {
-        clear: both;
         width: 50%;
         float: right;
     }
- 
+
     .content-text-2 {
         width: 50%;
         color: rgb(255, 255, 255);
         float: left;
         margin-top: 5%;
-        display: block;
     }
- 
+  
     .footer-arrow-2 {
         color: rgba(0, 0, 0, 0);
     }
 
     #nextline-btn a{
-        position: absolute;
+        position: fixed;
         z-index: 1;
         bottom: 0;
         right: 5%;
         font-size: 3rem;
         padding: 1%;
-        color: rgba(224, 224, 224, 0.712);
+        color: rgba(209, 209, 209, 0.712);
         cursor: pointer;
         text-decoration: none;
         clear: both;
-        box-shadow: -12px 8px 5px 0px rgba(112, 110, 110, 0.692);
+        box-shadow: -12px 8px 5px 0px rgba(107, 105, 105, 0.692);
     }
 
     #nextline-btn a:hover {
@@ -355,6 +346,5 @@
 
     #nextline-btn a:active {
         box-shadow: -2px 2px 5px 0px rgba(107, 105, 105, 0.692);
-    } 
-
+    } */
 }
